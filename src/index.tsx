@@ -1,15 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './components/App/App.component';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./components/App/App.component";
+import reportWebVitals from "./reportWebVitals";
 
+//porvider del context
+import { CuestionarioContextProvider } from "./context/Cuestionario.context";
+
+//Bootstrap
+import "bootstrap/dist/css/bootstrap.min.css";
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <CuestionarioContextProvider>
+      <App />
+    </CuestionarioContextProvider>
   </React.StrictMode>
 );
 
