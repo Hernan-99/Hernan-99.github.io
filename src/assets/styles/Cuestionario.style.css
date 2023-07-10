@@ -1,0 +1,38 @@
+.fondo-color {
+  background-color: #423f3f;
+}
+.card {
+  background-color: #2b2b2b !important;
+  box-shadow: 2px 18px 32px 3px rgba(0, 0, 0, 0.75);
+  border: 0.05rem solid #ffffff4b !important;
+  box-shadow: 1px 1px 23px -12px #ffffff4b;
+}
+
+.header-card {
+  border-bottom: 0.05rem solid #ffffff4b !important;
+}
+
+.btn_siguiente {
+  background-color: #7bbda3;
+  color: #fff;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  transition: all 300ms ease-in-out;
+  border-radius: 0.2rem;
+  padding: 0.8rem;
+  font-size: 0.87rem;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.btn_siguiente:hover,
+.btn_siguiente:active {
+  color: #1d1d1d;
+  background-color: #6febb9;
+  box-shadow: 1px 2px 11px 0px #6febb9;
+}
+
+.btn_siguiente:active {
+  transform: scale(1.05);
+}
