@@ -20,7 +20,7 @@
         "D) F = m * a"
       ],
       "respuesta": "A) F = m * v",
-      "pista": "Podes descartar A"
+      "pista": "Podes descartar B"
     },
     {
       "pregunta": "¿Cuál de las siguientes afirmaciones es verdadera acerca de la conservación de la energía en un sistema cerrado?",
@@ -57,7 +57,7 @@
     },
     {
       "pregunta": "¿Cuál de las siguientes ecuaciones se utiliza para calcular la velocidad media de un objeto?",
-      "opciones": ["A) v = d/t", "v = a/t", "v = m * a", "v = F * t"],
+      "opciones": ["A) v = d/t", "B) v = a/t", "C) v = m * a", "D) v = F * t"],
       "respuesta": "A) v = d/t",
       "pista": "Podes descartar B"
     },
