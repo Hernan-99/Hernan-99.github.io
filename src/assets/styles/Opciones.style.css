@@ -1,0 +1,24 @@
+.opcion {
+  background-color: #e5b6f3;
+  border-radius: 0.5rem;
+  padding: 0.05rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  color: #120f1b;
+}
+
+.opcion:hover {
+  opacity: 0.8;
+}
+
+.correcto {
+  background-color: #09ff00;
+  font-weight: bold;
+  color: #fff;
+}
+
+.incorrecto {
+  background-color: #ff0000;
+  opacity: 0.8;
+}
