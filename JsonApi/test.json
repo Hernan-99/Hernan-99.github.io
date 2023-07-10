@@ -13,17 +13,22 @@
     },
     {
       "pregunta": "¿Cuál de las siguientes ecuaciones representa la Segunda Ley de Newton (Fuerza = masa * aceleración)?",
-      "opciones": ["F = m * v", "F = m + a", "F = m / a", "F = m * a"],
+      "opciones": [
+        "A) F = m * v",
+        "B) F = m + a",
+        "C) F = m / a",
+        "D) F = m * a"
+      ],
       "respuesta": "F = m * a",
       "pista": "Podes descartar A"
     },
     {
       "pregunta": "¿Cuál de las siguientes afirmaciones es verdadera acerca de la conservación de la energía en un sistema cerrado?",
       "opciones": [
-        "La energía se crea dentro del sistema.",
-        "La energía se destruye dentro del sistema.",
-        "La energía total del sistema se mantiene constante.",
-        "La energía se transfiere solo hacia el exterior del sistema."
+        "A) La energía se crea dentro del sistema.",
+        "B) La energía se destruye dentro del sistema.",
+        "C) La energía total del sistema se mantiene constante.",
+        "D) La energía se transfiere solo hacia el exterior del sistema."
       ],
       "respuesta": "La energía total del sistema se mantiene constante.",
       "pista": "Podes descartar D"
@@ -31,33 +36,38 @@
     {
       "pregunta": "¿Qué ley describe el principio de conservación de la energía?",
       "opciones": [
-        "Ley de Ohm",
-        "Ley de Ampére",
-        "Ley de Faraday",
-        "Ley de la Conservación de la Energía"
+        "A) Ley de Ohm",
+        "B) Ley de Ampére",
+        "C) Ley de Faraday",
+        "D) Ley de la Conservación de la Energía"
       ],
       "respuesta": "Ley de la Conservación de la Energía",
       "pista": "Podes descartar A"
     },
     {
       "pregunta": "¿Cuál de las siguientes unidades se utiliza para medir la resistencia eléctrica?",
-      "opciones": ["Voltios (V)", "Amperios (A)", "Ohmios (Ω)", "Joules (J)"],
+      "opciones": [
+        "A) Voltios (V)",
+        "B) Amperios (A)",
+        "C) Ohmios (Ω)",
+        "D) Joules (J)"
+      ],
       "respuesta": "Ohmios (Ω)",
       "pista": "Podes descartar B"
     },
     {
       "pregunta": "¿Cuál de las siguientes ecuaciones se utiliza para calcular la velocidad media de un objeto?",
-      "opciones": ["v = d/t", "v = a/t", "v = m * a", "v = F * t"],
+      "opciones": ["A) v = d/t", "v = a/t", "v = m * a", "v = F * t"],
       "respuesta": "v = d/t",
       "pista": "Podes descartar B"
     },
     {
       "pregunta": "¿Qué tipo de energía se encuentra almacenada en un objeto que se encuentra a cierta altura sobre la superficie de la Tierra?",
       "opciones": [
-        "Energía cinética",
-        "Energía potencial",
-        "Energía térmica",
-        "Energía radiante"
+        "A) Energía cinética",
+        "B) Energía potencial",
+        "C) Energía térmica",
+        "D) Energía radiante"
       ],
       "respuesta": "Energía potencial",
       "pista": "Podes descartar A"
@@ -65,10 +75,10 @@
     {
       "pregunta": "¿Cuál de las siguientes afirmaciones es correcta acerca de la ley de conservación del momento lineal?",
       "opciones": [
-        "El momento lineal de un sistema se incrementa con el tiempo.",
-        "El momento lineal de un sistema siempre se conserva.",
-        "El momento lineal solo se conserva en ausencia de fuerzas externas.",
-        "El momento lineal solo se conserva en sistemas en reposo."
+        "A) El momento lineal de un sistema se incrementa con el tiempo.",
+        "B) El momento lineal de un sistema siempre se conserva.",
+        "C) El momento lineal solo se conserva en ausencia de fuerzas externas.",
+        "D) El momento lineal solo se conserva en sistemas en reposo."
       ],
       "respuesta": "El momento lineal solo se conserva en ausencia de fuerzas externas.",
       "pista": "Podes descartar B"
