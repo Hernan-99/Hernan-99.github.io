@@ -1,3 +1,8 @@
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+}
+
 .bg-content {
   background-color: #e8e4f9;
   display: flex;
@@ -7,7 +12,7 @@
   height: 100vh;
 }
 
-.btn-color {
+.btn_comenzar {
   background-color: #7bbda3;
   color: #fff;
   font-weight: bold;
@@ -16,15 +21,17 @@
   transition: all 300ms ease-in-out;
   border-radius: 0.2rem;
   padding: 0.5rem;
+  font-size: 0.87rem;
+  font-family: "Open Sans", sans-serif;
 }
 
-.btn-color:hover,
-.btn-color:active {
+.btn_comenzar:hover,
+.btn_comenzar:active {
   color: #1d1d1d;
   background-color: #6febb9;
   box-shadow: 1px 5px 23px 0px #6febb9;
 }
 
-.btn-color:active {
+.btn_comenzar:active {
   transform: scale(1.05);
 }
