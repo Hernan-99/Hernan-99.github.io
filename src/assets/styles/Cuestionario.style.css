@@ -32,7 +32,3 @@
   background-color: #6febb9;
   box-shadow: 1px 2px 11px 0px #6febb9;
 }
-
-.btn_siguiente:active {
-  transform: scale(1.05);
-}
