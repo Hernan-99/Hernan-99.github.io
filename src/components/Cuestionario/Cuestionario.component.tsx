@@ -1,5 +1,3 @@
-//SOLUCIONAR BUG
-
 import { useContext, useEffect } from "react";
 
 // Bootstrap
@@ -28,10 +26,10 @@ const Cuestionario: React.FC = () => {
   const mostrarPregunta =
     cuestionarioEstado.preguntas[cuestionarioEstado.preguntaActual];
 
-  const selectedOption = (opcion: string) => {
+  const usuarioSeleccion = (opcion: string) => {
     // console.log(option);
     dispatch({
-      type: "CHEK_ANSWER",
+      type: "RESPUESTA_CORRECTA",
       //mostrarPregunta.respuesta referencia a la api
       payload: { respuestaCorrecta: mostrarPregunta.respuesta, opcion },
     });
@@ -66,7 +64,7 @@ const Cuestionario: React.FC = () => {
                       key={opcion}
                       respuestaCorrecta={mostrarPregunta.respuesta}
                       opSelec={() => {
-                        selectedOption(opcion);
+                        usuarioSeleccion(opcion);
                       }}
                       seleccionada={false}
                     />
