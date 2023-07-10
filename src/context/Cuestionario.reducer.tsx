@@ -35,14 +35,19 @@ const cuestionarioReducer = (estado: any, accion: any) => {
     case "RECARGAR": // Reinicio del juego
       return { ...estadoInicial, puntaje: 0 };
 
-    case "CHECK_ANSWER": // Validacion para comprobar si la respuesta seleccionada es correcta
+    case "RESPUESTA_CORRECTA": // Validacion para comprobar si la respuesta seleccionada es correcta
+      if (estado.respuestaSeleccionada) {
+        return estado;
+      }
       const respuestaCorrecta = accion.payload.respuestaCorrecta;
       const opcion = accion.payload.opcion;
       let esCorrecta = 0;
 
       //Actualiza el puntaje y respuestaSeleccionada si esta es correcta
-      if (respuestaCorrecta === opcion) esCorrecta = 1;
-      console.log(accion);
+      if (respuestaCorrecta === opcion) {
+        esCorrecta = 1;
+      }
+      // console.log(accion);
 
       // Actualiza el estado con el puntaje y la respuesta seleccionada
       return {
