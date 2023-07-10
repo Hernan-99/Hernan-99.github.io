@@ -1,8 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap";
-
+import "../../assets/styles/Footer.style.css";
 const Footer = () => {
   return (
-    <footer className="bg-dark text-light py-3">
+    <footer className="bg-dark text-light">
       <Container>
         <Row>
           <Col xs={12} className="text-center">
