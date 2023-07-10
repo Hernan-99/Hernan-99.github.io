@@ -3,17 +3,19 @@
     {
       "pregunta": "¿Cuál de las siguientes afirmaciones es correcta sobre la Ley de Newton de la Gravitación Universal?",
       "opciones": [
-        "La fuerza de gravedad depende de la masa de los objetos involucrados.",
-        "La fuerza de gravedad no depende de la distancia entre los objetos.",
-        "La fuerza de gravedad solo afecta a los objetos en movimiento.",
-        "La fuerza de gravedad solo actúa sobre la Tierra."
+        "A) La fuerza de gravedad depende de la masa de los objetos involucrados.",
+        "B) La fuerza de gravedad no depende de la distancia entre los objetos.",
+        "C) La fuerza de gravedad solo afecta a los objetos en movimiento.",
+        "D) La fuerza de gravedad solo actúa sobre la Tierra."
       ],
-      "respuesta": "La fuerza de gravedad depende de la masa de los objetos involucrados."
+      "respuesta": "A) La fuerza de gravedad depende de la masa de los objetos involucrados.",
+      "pista": "Podes descartar C"
     },
     {
       "pregunta": "¿Cuál de las siguientes ecuaciones representa la Segunda Ley de Newton (Fuerza = masa * aceleración)?",
       "opciones": ["F = m * v", "F = m + a", "F = m / a", "F = m * a"],
-      "respuesta": "F = m * a"
+      "respuesta": "F = m * a",
+      "pista": "Podes descartar A"
     },
     {
       "pregunta": "¿Cuál de las siguientes afirmaciones es verdadera acerca de la conservación de la energía en un sistema cerrado?",
@@ -23,7 +25,8 @@
         "La energía total del sistema se mantiene constante.",
         "La energía se transfiere solo hacia el exterior del sistema."
       ],
-      "respuesta": "La energía total del sistema se mantiene constante."
+      "respuesta": "La energía total del sistema se mantiene constante.",
+      "pista": "Podes descartar D"
     },
     {
       "pregunta": "¿Qué ley describe el principio de conservación de la energía?",
@@ -33,17 +36,20 @@
         "Ley de Faraday",
         "Ley de la Conservación de la Energía"
       ],
-      "respuesta": "Ley de la Conservación de la Energía"
+      "respuesta": "Ley de la Conservación de la Energía",
+      "pista": "Podes descartar A"
     },
     {
       "pregunta": "¿Cuál de las siguientes unidades se utiliza para medir la resistencia eléctrica?",
       "opciones": ["Voltios (V)", "Amperios (A)", "Ohmios (Ω)", "Joules (J)"],
-      "respuesta": "Ohmios (Ω)"
+      "respuesta": "Ohmios (Ω)",
+      "pista": "Podes descartar B"
     },
     {
       "pregunta": "¿Cuál de las siguientes ecuaciones se utiliza para calcular la velocidad media de un objeto?",
       "opciones": ["v = d/t", "v = a/t", "v = m * a", "v = F * t"],
-      "respuesta": "v = d/t"
+      "respuesta": "v = d/t",
+      "pista": "Podes descartar B"
     },
     {
       "pregunta": "¿Qué tipo de energía se encuentra almacenada en un objeto que se encuentra a cierta altura sobre la superficie de la Tierra?",
@@ -53,7 +59,8 @@
         "Energía térmica",
         "Energía radiante"
       ],
-      "respuesta": "Energía potencial"
+      "respuesta": "Energía potencial",
+      "pista": "Podes descartar A"
     },
     {
       "pregunta": "¿Cuál de las siguientes afirmaciones es correcta acerca de la ley de conservación del momento lineal?",
@@ -63,7 +70,8 @@
         "El momento lineal solo se conserva en ausencia de fuerzas externas.",
         "El momento lineal solo se conserva en sistemas en reposo."
       ],
-      "respuesta": "El momento lineal solo se conserva en ausencia de fuerzas externas."
+      "respuesta": "El momento lineal solo se conserva en ausencia de fuerzas externas.",
+      "pista": "Podes descartar B"
     }
   ]
 }
