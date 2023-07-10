@@ -1,4 +1,4 @@
-import { useContext, useEffect } from "react";
+import { useContext, useEffect, useState } from "react";
 
 // Bootstrap
 import { Container, Row, Card, Col } from "react-bootstrap";
@@ -25,6 +25,8 @@ const Cuestionario: React.FC = () => {
   const numTotalPreguntas = cuestionarioEstado.preguntas.length;
   const mostrarPregunta =
     cuestionarioEstado.preguntas[cuestionarioEstado.preguntaActual];
+
+  const [mostrarPista, setMostrarPista] = useState<boolean>(false);
 
   const usuarioSeleccion = (opcion: string) => {
     // console.log(option);
@@ -71,7 +73,7 @@ const Cuestionario: React.FC = () => {
               </div>
               {/* Condicional para renderizar el boton luego de que el usuario haya seleccionado
               una opcion  */}
-              {cuestionarioEstado.respuestaSeleccionada && (
+              {cuestionarioEstado.respuestaSeleccionada ? (
                 <button
                   className="w-100 btn_siguiente"
                   onClick={() => {
@@ -80,6 +82,20 @@ const Cuestionario: React.FC = () => {
                 >
                   Siguiente
                 </button>
+              ) : (
+                <>
+                  <button
+                    className="w-100 btn_pista"
+                    onClick={() => setMostrarPista(!mostrarPista)}
+                  >
+                    Mostrar pista
+                  </button>
+                  {mostrarPista && (
+                    <div className="opciones-avanzadas">
+                      <p>{mostrarPregunta.pista}</p>
+                    </div>
+                  )}
+                </>
               )}
             </Card.Body>
           </Card>
