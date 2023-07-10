@@ -53,7 +53,6 @@ const Cuestionario: React.FC = () => {
               <Card.Title>
                 <h2 className="m-0">{mostrarPregunta.pregunta}</h2>
               </Card.Title>
-              <div></div>
               <div id="options-container" className="mb-4">
                 {/* Condicional para renderizar las preguntas  */}
                 {mostrarPregunta &&
@@ -70,8 +69,6 @@ const Cuestionario: React.FC = () => {
                     />
                   ))}
               </div>
-              <div></div>
-              <Card.Text></Card.Text>
               {/* Condicional para renderizar el boton luego de que el usuario haya seleccionado
               una opcion  */}
               {cuestionarioEstado.respuestaSeleccionada && (
