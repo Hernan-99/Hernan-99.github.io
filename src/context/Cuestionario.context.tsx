@@ -29,6 +29,7 @@ export const estadoInicial = {
   puntaje: 0,
   preguntaActual: 0,
   respuestaSeleccionada: false,
+  pista: "",
 };
 
 type CuestionarioProviderProps = {
@@ -56,14 +57,16 @@ const CuestionarioContextProvider: React.FC<CuestionarioProviderProps> = ({
         const preg = data.preguntas; //se accede a las preguntas
         const preguntasReodernadas = preg.sort(() => Math.random() - 0.5);
 
+        const preguntasConPistas = preguntasReodernadas.map((e: any) => ({
+          ...e,
+          pista: e.pista,
+        }));
+
         // almacenanamos el estado del cuestionario con dispatch y el reordenamiento
         dispatch({
           type: "RANDOM_PREGUNTAS",
-          payload: preguntasReodernadas,
+          payload: preguntasConPistas,
         });
-        // preguntasReodernadas.forEach((rta: any) => {
-        //   console.log(rta.pregunta);
-        // });
       }
     } catch (error) {
       console.log("Error al obtener las preguntas: ", error);
