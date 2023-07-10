@@ -5,7 +5,7 @@ import axios from "axios";
 //endpoint
 const apiUrl = "https://hernan-99.github.io/JsonApi/test.json";
 
-//obtencion de las preguntas
+//Configuracion axios
 const getData = async () => {
   try {
     const res = axios({
@@ -38,9 +38,48 @@ type CuestionarioProviderProps = {
 const CuestionarioContextProvider: React.FC<CuestionarioProviderProps> = ({
   children,
 }) => {
-  const value = useReducer(cuestionarioReducer, estadoInicial);
+  //Hook para gestionar la etapa del cuestionario ["Empezar", "Jugando", "Finalizado"]
+  const [cuestionarioEstado, dispatch] = useReducer(
+    cuestionarioReducer,
+    estadoInicial
+  );
+
+  // Función encargada de obtener los datos de las preguntas desde la ULR donde esta la "api falsa".
+  const getPreguntas = async () => {
+    try {
+      // Solicitud GET
+      const res = await getData();
+
+      //Retorno u obtencion de datos.
+      if (res) {
+        const data = res.data; //almacenamos los datos
+        const preg = data.preguntas; //se accede a las preguntas
+        const preguntasReodernadas = preg.sort(() => Math.random() - 0.5);
+
+        // almacenanamos el estado del cuestionario con dispatch y el reordenamiento
+        dispatch({
+          type: "RANDOM_PREGUNTAS",
+          payload: preguntasReodernadas,
+        });
+        // preguntasReodernadas.forEach((rta: any) => {
+        //   console.log(rta.pregunta);
+        // });
+      }
+    } catch (error) {
+      console.log("Error al obtener las preguntas: ", error);
+    }
+  };
+
+  // Hook para ejecutar getPreguntas.
+  useEffect(() => {
+    getPreguntas();
+  }, []); //[] Esto para obtener las preguntas al cargar el componente por primera vez.
+
   return (
-    <CuestionarioContext.Provider value={value}>
+    // Para envolver los componentes hijos y proporcionar el valor del estado, la función de envío de acciones (dispatch) y la función getPreguntas por medio del value. Le da acceso a los componentes para usar el estado y las funciones proporcionadas por el contexto.
+    <CuestionarioContext.Provider
+      value={[cuestionarioEstado, dispatch, getPreguntas]}
+    >
       {children}
     </CuestionarioContext.Provider>
   );
