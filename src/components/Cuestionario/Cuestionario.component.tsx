@@ -1,3 +1,5 @@
+//SOLUCIONAR BUG
+
 import { useContext, useEffect } from "react";
 
 // Bootstrap
