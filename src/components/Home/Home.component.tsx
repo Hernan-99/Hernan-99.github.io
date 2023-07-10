@@ -1,14 +1,20 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { Container, Row, Col, Nav } from "react-bootstrap";
 
 import { CuestionarioContext } from "../../context/Cuestionario.context";
 import "../../assets/styles/Home.style.css";
 
 const Home = () => {
-  const [estado, dispatch] = useContext(CuestionarioContext);
+  const [estadoCuestionario, dispatch, getPreguntas] =
+    useContext(CuestionarioContext);
   // console.log(estado);
+
+  useEffect(() => {
+    getPreguntas();
+  }, []);
+
   return (
-    <Container fluid className="bg-content">
+    <Container fluid className="bg-content p-5">
       <Row>
         <Col xs={12} md={12} lg={12} className="text-center mb-2">
           <h1>Bienvenido!</h1>
@@ -20,7 +26,7 @@ const Home = () => {
         <Col xs={12} md={12} lg={12}>
           <Nav.Link>
             <button
-              className="btn-color"
+              className="btn_comenzar"
               onClick={() => {
                 dispatch({ type: "CAMBIO_DE_ESTADO" });
               }}
