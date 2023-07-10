@@ -3,12 +3,12 @@
     {
       "pregunta": "¿Cuál de las siguientes afirmaciones es correcta sobre la Ley de Newton de la Gravitación Universal?",
       "opciones": [
-        "A) La fuerza de gravedad depende de la masa de los objetos involucrados.",
-        "B) La fuerza de gravedad no depende de la distancia entre los objetos.",
-        "C) La fuerza de gravedad solo afecta a los objetos en movimiento.",
-        "D) La fuerza de gravedad solo actúa sobre la Tierra."
+        "A) La fuerza de gravedad depende de la masa de los objetos involucrados",
+        "B) La fuerza de gravedad no depende de la distancia entre los objetos",
+        "C) La fuerza de gravedad solo afecta a los objetos en movimiento",
+        "D) La fuerza de gravedad solo actúa sobre la Tierra"
       ],
-      "respuesta": "A) La fuerza de gravedad depende de la masa de los objetos involucrados.",
+      "respuesta": "A) La fuerza de gravedad depende de la masa de los objetos involucrados",
       "pista": "Podes descartar C"
     },
     {
@@ -19,18 +19,18 @@
         "C) F = m / a",
         "D) F = m * a"
       ],
-      "respuesta": "F = m * a",
+      "respuesta": "A) F = m * v",
       "pista": "Podes descartar A"
     },
     {
       "pregunta": "¿Cuál de las siguientes afirmaciones es verdadera acerca de la conservación de la energía en un sistema cerrado?",
       "opciones": [
-        "A) La energía se crea dentro del sistema.",
-        "B) La energía se destruye dentro del sistema.",
-        "C) La energía total del sistema se mantiene constante.",
-        "D) La energía se transfiere solo hacia el exterior del sistema."
+        "A) La energía se crea dentro del sistema",
+        "B) La energía se destruye dentro del sistema",
+        "C) La energía total del sistema se mantiene constante",
+        "D) La energía se transfiere solo hacia el exterior del sistema"
       ],
-      "respuesta": "La energía total del sistema se mantiene constante.",
+      "respuesta": "C) La energía total del sistema se mantiene constante",
       "pista": "Podes descartar D"
     },
     {
@@ -41,7 +41,7 @@
         "C) Ley de Faraday",
         "D) Ley de la Conservación de la Energía"
       ],
-      "respuesta": "Ley de la Conservación de la Energía",
+      "respuesta": "D) Ley de la Conservación de la Energía",
       "pista": "Podes descartar A"
     },
     {
@@ -52,13 +52,13 @@
         "C) Ohmios (Ω)",
         "D) Joules (J)"
       ],
-      "respuesta": "Ohmios (Ω)",
+      "respuesta": "C) Ohmios (Ω)",
       "pista": "Podes descartar B"
     },
     {
       "pregunta": "¿Cuál de las siguientes ecuaciones se utiliza para calcular la velocidad media de un objeto?",
       "opciones": ["A) v = d/t", "v = a/t", "v = m * a", "v = F * t"],
-      "respuesta": "v = d/t",
+      "respuesta": "A) v = d/t",
       "pista": "Podes descartar B"
     },
     {
@@ -69,18 +69,18 @@
         "C) Energía térmica",
         "D) Energía radiante"
       ],
-      "respuesta": "Energía potencial",
+      "respuesta": "B) Energía potencial",
       "pista": "Podes descartar A"
     },
     {
       "pregunta": "¿Cuál de las siguientes afirmaciones es correcta acerca de la ley de conservación del momento lineal?",
       "opciones": [
-        "A) El momento lineal de un sistema se incrementa con el tiempo.",
-        "B) El momento lineal de un sistema siempre se conserva.",
-        "C) El momento lineal solo se conserva en ausencia de fuerzas externas.",
-        "D) El momento lineal solo se conserva en sistemas en reposo."
+        "A) El momento lineal de un sistema se incrementa con el tiempo",
+        "B) El momento lineal de un sistema siempre se conserva",
+        "C) El momento lineal solo se conserva en ausencia de fuerzas externas",
+        "D) El momento lineal solo se conserva en sistemas en reposo"
       ],
-      "respuesta": "El momento lineal solo se conserva en ausencia de fuerzas externas.",
+      "respuesta": "C) El momento lineal solo se conserva en ausencia de fuerzas externas",
       "pista": "Podes descartar B"
     }
   ]
