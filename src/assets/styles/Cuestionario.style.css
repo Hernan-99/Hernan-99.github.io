@@ -12,7 +12,8 @@
   border-bottom: 0.05rem solid #ffffff4b !important;
 }
 
-.btn_siguiente {
+.btn_siguiente,
+.btn_pista {
   background-color: #7bbda3;
   color: #fff;
   font-weight: bold;
@@ -31,4 +32,15 @@
   color: #1d1d1d;
   background-color: #6febb9;
   box-shadow: 1px 2px 11px 0px #6febb9;
+}
+
+.btn_pista {
+  background-color: #7bbbbd;
+}
+
+.btn_pista:hover,
+.btn_pista:active {
+  color: #1d1d1d;
+  background-color: #6febe1;
+  box-shadow: 1px 2px 11px 0px #6febe1;
 }
