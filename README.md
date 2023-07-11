@@ -4,7 +4,7 @@ El sesafio es crear un cuestionario interactivo utilizando React.
 puedes visitar el sition online en:
 [Visitar sitio](https://cuestionario-app.netlify.app/)
 
-# Tecnologias, Framewors y librerias
+# Tecnologias, Frameworks y librerias
 
 - [Tyscript](https://www.typescriptlang.org/)
 - [React](http://reactjs.org)
