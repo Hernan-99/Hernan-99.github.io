@@ -1,6 +1,6 @@
 # HighloadMe challenge Frontend / React trainee
 
-El sesafio es crear un cuestionario interactivo utilizando React.
+El desafio es crear un cuestionario interactivo utilizando React.
 puedes visitar el sition online en:
 [Visitar sitio](https://cuestionario-app.netlify.app/)
 
